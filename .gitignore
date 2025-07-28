@@ -1,0 +1,31 @@
+# ===== Essential Ignores =====
+# Environment variables
+.env
+.env.local
+*.env
+
+# Dependency directories
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build artifacts
+dist/
+build/
+coverage/
+
+# Uploads (if not using cloud storage)
+uploads/
